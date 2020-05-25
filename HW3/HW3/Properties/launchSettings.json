@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "HW3": {
+      "commandName": "Project"
+    },
+    "Encrypt": {
+      "commandName": "Project",
+      "commandLineArgs": "encrypt \"C:\\Users\\eduard\\source\\repos\\HW3\\HW3\\Test\" \"C:\\Users\\eduard\\source\\repos\\HW3\\HW3\\encrypted.txt\" \"Password1234\"",
+      "workingDirectory": "C:\\Users\\eduard\\source\\repos\\HW3"
+    },
+    "Decrypt": {
+      "commandName": "Project",
+      "commandLineArgs": "decrypt \"C:\\Users\\eduard\\source\\repos\\HW3\\HW3\\encrypted.txt\" \"C:\\Users\\eduard\\source\\repos\\HW3\\HW3\\TestD\" \"Password1234\""
+    }
+  }
+}

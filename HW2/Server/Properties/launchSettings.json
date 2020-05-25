@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Server": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\eduard\\source\\repos\\HW2\\Server\\bin\\Debug\\netcoreapp3.1\\Server.exe"
+    },
+    "Client": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\eduard\\source\\repos\\HW2\\Client\\bin\\Debug\\netcoreapp3.1\\Client.exe"
+    }
+  }
+}

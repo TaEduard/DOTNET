@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Weather";
+}
+<h1>Weather</h1>
+<form method="get">
+    <div class="form-group">
+
+        <input type="text" class="form-control" id="cityName" name="cityName" aria-
+               describedby="cityHelp" placeholder="City Name">
+
+        <small id="cityHelp" class="form-text text-muted">
+            Enter a city name for which to find
+            out the temperature
+        </small>
+    </div>
+    <button type="submit" class="btn btn-primary">Show weather</button>
+</form>
+@{
+    if (ViewBag.HaveData)
+    {
+        <div>Temperatura: @ViewBag.Temp F</div>
+    }
+}
